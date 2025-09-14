@@ -498,8 +498,9 @@ class LMPC(MPC):
         SSu_Points = u[indexSSandQfun, :].T
         Sel_Qfun = self.Qfun[it][indexSSandQfun]
 
-        # Modify the cost if the predicion has crossed the finisch line
-        if self.xPred == []:
+        # Modify the cost if the predicion has crossed the finish line
+        #if self.xPred == []:
+        if self.xPred is None or len(self.xPred) == 0:
             Sel_Qfun = self.Qfun[it][indexSSandQfun]
         elif (np.all((self.xPred[:, 4] > self.predictiveModel.map.TrackLength) == False)):
             Sel_Qfun = self.Qfun[it][indexSSandQfun]

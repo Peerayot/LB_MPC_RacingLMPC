@@ -21,9 +21,9 @@
 # 4) A LMPC for racing where the safe set and value function approximation are build using the data from 1), 2) and 3)
 # ----------------------------------------------------------------------------------------------------------------------
 import sys
-sys.path.append('fnc/simulator')
-sys.path.append('fnc/controller')
-sys.path.append('fnc')
+sys.path.append('./src/fnc/simulator')
+sys.path.append('./src/fnc/controller')
+sys.path.append('./src/fnc')
 import matplotlib.pyplot as plt
 from plot import plotTrajectory, plotClosedLoopLMPC, animation_xy, animation_states, saveGif_xyResults
 from initControllerParameters import initMPCParams, initLMPCParams
