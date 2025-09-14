@@ -45,4 +45,4 @@ This code is based on the following:
 
 * Ugo Rosolia and Francesco Borrelli. "Learning Model Predictive Control for Iterative Tasks. A Data-Driven Control Framework." In IEEE Transactions on Automatic Control (2017). [PDF](https://ieeexplore.ieee.org/document/8039204/)
 * Ugo Rosolia and Francesco Borrelli. "Learning how to autonomously race a car: a predictive control approach." IEEE Transactions on Control Systems Technology (2019) [PDF](https://ieeexplore.ieee.org/abstract/document/8896988).
-* Ugo Rosolia and Francesco Borrelli. "Learning Model Predictive Control for Iterative Tasks: A Computationally Efficient Approach for Linear System." IFAC-PapersOnLine 50.1 (2017). [PDF](https://arxiv.org/pdf/1702.07064.pdf)
+* Ugo Rosolia and Francesco Borrelli. "Learning Model Predictive Control for Iterative Tasks: A Computationally Efficient Approach for Linear System." IFAC-PapersOnLine 50.1 (2017). [PDF](https://arxiv.org/pdf/1702.07064.pdf) or [PDF](https://www.sciencedirect.com/science/article/pii/S2405896317306523)
