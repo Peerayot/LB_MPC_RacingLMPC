@@ -8,6 +8,10 @@ The Learning Model Predictive Control (LMPC) is a data-driven control framework 
 
 In the above animation we see the vehicle's closed-loop trajectory (in black) for laps 5, 30, 31 and 32. At each time instant the LMPC leverages forecast to plan the vehicle trajectory (in red) few seconds into the future. This trajectory is planned to minimize the lap time, but it is constrained to land into the safe set (in green). This safe set is the domain of the approximation to the value function and it is updated after each lap using historical data.
 
+### Python Version (added by Peerayot Sanposh)
+On Windows 11 platform, Python V.3.10.11 can run this respitory.
+On Ubuntu 22.04 platform, Python V.3.10.11 can run this respitory.
+
 ### Prerequisites
 
 The packeges needed for running the code can be installed using pip
@@ -17,6 +21,12 @@ pip install cvxopt
 pip install osqp
 pip install pathos
 pip install matplotlib
+```
+
+### (Added by Peerayot Sanposh) 
+or by using pip
+```
+pip install -r requirements.txt
 ```
 
 ## Description
